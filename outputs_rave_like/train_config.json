@@ -1,0 +1,19 @@
+{
+  "data_dir": "./Animals",
+  "out_dir": "./outputs_rave_like",
+  "sample_rate": 44100,
+  "duration": 5.0,
+  "latent_dim": 128,
+  "batch_size": 4,
+  "epochs": 50,
+  "lr": 0.0001,
+  "beta": 0.0001,
+  "wave_weight": 1.0,
+  "stft_weight": 1.0,
+  "grad_clip": 1.0,
+  "num_workers": 4,
+  "log_every": 20,
+  "sample_every": 200,
+  "amp": false,
+  "cpu": false
+}

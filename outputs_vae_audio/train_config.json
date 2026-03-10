@@ -1,0 +1,20 @@
+{
+  "data_dir": "./Animals",
+  "out_dir": "./outputs_vae_audio",
+  "sample_rate": 24000,
+  "duration": 2.0,
+  "n_fft": 1024,
+  "hop_length": 256,
+  "n_mels": 80,
+  "latent_dim": 128,
+  "batch_size": 16,
+  "epochs": 50,
+  "lr": 0.001,
+  "beta": 0.0001,
+  "grad_clip": 1.0,
+  "num_workers": 4,
+  "log_every": 20,
+  "sample_every": 200,
+  "amp": false,
+  "cpu": false
+}
